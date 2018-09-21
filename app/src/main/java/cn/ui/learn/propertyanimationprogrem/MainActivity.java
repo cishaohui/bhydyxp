@@ -55,6 +55,11 @@ public class MainActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
         iv = findViewById(R.id.button1);
         initAnimation();
+        initData();
+    }
+
+    private void initData() {
+
     }
 
     private void initAnimation() {
@@ -62,6 +67,7 @@ public class MainActivity extends AppCompatActivity
     }
 
     public void startAnimation(View view){
+
         //----------------补间动画-----------------
 //        Animation animation = AnimationUtils.loadAnimation(this, R.anim.translation);
 //        iv.startAnimation(animation);
