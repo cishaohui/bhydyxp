@@ -61,6 +61,8 @@ public class MainActivity extends AppCompatActivity
 
     private void initData() {
         Log.d("123456", "initData: ++++++++++++++++++++++");
+        Log.d("123456", "initData: ++++++++++++22++++++++++");
+        Log.d("123456", "initData: ++++++++++++222++++++++++");
     }
 
     private void initAnimation() {
